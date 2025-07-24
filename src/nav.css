@@ -1,0 +1,76 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.navbar{
+    background-color: #490829;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(223, 221, 221, 0.1);
+    position: relative;
+    width: 100%;
+    top:0;
+    z-index: 100;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.logo{
+    color: rgb(242, 242, 242);
+    font-size: 1.8rem;
+    gap: 1.5rem
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.912)
+}
+.hero{
+    height: 100vh;
+                     
+   background-image: url("https://plantlane.com/cdn/shop/articles/lotus-flower-garden-beautiful-na.jpg?v=1693923587");
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    align-items: center;
+}
+.hero-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    text-align: center;
+    color: #D4AF37;
+    padding: 2rem;
+}
+.hero-content h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero-content p{
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
+
+}
+.hero-button{
+    background-color: rgb(193, 153, 174);
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+.hero-button:hover{
+    background-color: rgb(158, 158, 158);
+}
